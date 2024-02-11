@@ -691,7 +691,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-inp: focus {
+.modal-inp: focus + .modal-subicon {
   border-color: #4d5ae5;
 }
 
@@ -708,7 +708,7 @@ img {
   fill: #4d5ae5;
 }
 
-.maodal-area {
+.modal-area {
   margin-bottom: 16px;
 }
 
@@ -775,6 +775,16 @@ img {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-radio-type:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.modal-link {
+  color: #4d5ae5;
 }
 
 /*====================*/
