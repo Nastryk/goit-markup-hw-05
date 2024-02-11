@@ -692,25 +692,24 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-inp: focus {
+.modal-inp:focus {
   border-color: #4d5ae5;
 }
 
-.modal-inp: focus + .modal-subicon {
+.modal-inp:focus + .modal-subicon {
   fill: #4d5ae5;
 }
 
 .modal-subicon {
   left: 16px;
   top: 50%;
-  fill: transparent;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2e2f42;
   position: absolute;
 }
 
-.modal-inp: hover {
+.modal-inp:hover {
   fill: #4d5ae5;
 }
 
@@ -779,16 +778,17 @@ img {
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
+  border-radius: 4px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-radio-type:checked {
+.modal-radio-type:checked + .modal-priv .modal-check {
   background-color: #404bbf;
+  border: none;
 }
 
-.modal-radio-type:checked + .modal-check {
-  border: none;
+.modal-radio-type:checked + .modal-priv .modal-check svg {
   fill: #f4f4fd;
 }
 
