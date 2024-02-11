@@ -763,7 +763,7 @@ img {
   fill: transparent;
 }
 
-.modal-radio > a {
+.modal-radio + a {
   color: #4d5ae5;
 }
 
@@ -783,7 +783,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-radio-type:checked + .modal-check {
+.modal-radio-type:checked .modal-check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
