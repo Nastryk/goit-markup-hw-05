@@ -579,8 +579,9 @@ img {
 
 .form-img {
   margin-left: 16px;
-  color: #ffffff;
+  fill: #ffffff;
 }
+
 /*========================*/
 
 /*=========Bacground===========*/
@@ -788,7 +789,7 @@ img {
   border: none;
 }
 
-.modal-radio-type:checked + .modal-priv .modal-check svg {
+.modal-radio-type:checked + .modal-check {
   fill: #f4f4fd;
 }
 
