@@ -761,6 +761,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-radio + a {
@@ -787,6 +788,7 @@ img {
 .modal-radio-type:checked + .modal-priv .modal-check {
   background-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 
 .modal-radio-type:checked + .modal-check {
@@ -794,6 +796,11 @@ img {
 }
 
 .modal-link {
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
 
